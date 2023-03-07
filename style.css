@@ -1,0 +1,269 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+header{
+    background-color: rgba(157, 15, 15, 0.802);
+   width: 100%; 
+   height: 80px;
+   position: fixed;
+   z-index: 999;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 60px;
+    
+
+}
+.h{
+    color: rgb(255, 255, 255);
+    left: 1px;
+    
+    
+}
+.nav a{
+    
+    padding: 0.7rem 0.7rem;
+    color: aliceblue;
+    text-decoration: none;
+    text-align:left;
+    font-size: 20px;
+    border-radius: 15px;
+    padding-left: 30px;
+    transition: 1s ease;
+
+    
+    
+}
+
+.nav a:hover{
+    border-color: rgb(240, 255, 243);
+    border-width: 10px;
+    border-radius: 200px;
+    background-color: rgb(235, 242, 241);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: hand;
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    background: url('c1.jpeg');
+    background-size: cover;
+}
+
+.main h3{
+    color: aliceblue;
+    margin-top: 1px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 15px;
+    width: 400px;
+    background-color: rgba(3, 2, 0, 0.509);
+}
+
+.btn{
+   
+    text-decoration: none;
+    font-size: 35px;
+    display: inline-block;
+    background-color: aliceblue;
+    color: black;
+   
+    text-align: center;
+    border-radius: 5px;
+    border-color: aliceblue;
+    border-width: 30px;
+    transition: 1s ease;
+
+}
+.btn:hover{
+    background-color: brown;
+    color: aliceblue;
+    transform: scale(1.1) ;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #751616;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.cardd{
+    background-color: rgba(255, 255, 255, 0);
+    width: 15.25em;
+   
+    padding: 25px;
+    margin: 15px;
+
+}
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card .icon {
+    color: #898585;
+    font-size: 8em;
+    text-align: center;
+
+    
+
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3{
+    color: #000102;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.r{
+   text-decoration: none;
+   background-color: #681513;
+   color: #fff;
+   border-radius: 5px;
+   font-size: 1.2em;
+}
+
+
+.cars {
+    /* background-color: rgb(19, 1, 1); */
+    background: url('i.jpeg');
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+}
+
+
+.info h3{
+    color: #ab0b0b;
+    font-size: 1.7em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.more{
+    text-decoration: none;
+    color: rgb(195, 18, 18);
+    border-radius: 5px;
+    border-color: aqua;
+    font-size: 1.2em;
+ }
+
+ .card .icons img {
+    width: 100%
+   
+}
+.card .icon img {
+    width: 50% }
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(57, 7, 7);
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: rgb(117, 80, 80);
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #827e7e;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+    color: #751616;
+
+}
+.socials a:hover i{
+    color: rgb(156, 39, 39);
+}
+
+.footer-bottom{
+    background: rgb(53, 15, 15);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: #f3f2f2;
+   
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    color: #f3f2f2;
+    font-weight: 200;
+    
+}
